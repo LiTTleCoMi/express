@@ -1,0 +1,9 @@
+POST http://localhost:3000/savings/calculate  HTTP/1.1
+content-type: application/json
+
+{
+    "targetGoal": "10000",
+    "interestRate": "0.05",
+    "initialDeposit": "1000",
+    "durationMonths": "364",
+}
